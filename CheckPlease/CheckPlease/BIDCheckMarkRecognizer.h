@@ -1,5 +1,5 @@
 //
-//  BIDViewController.h
+//  BIDCheckMarkRecognizer.h
 //  CheckPlease
 //
 //  Created by Crescens Techstars on 12/10/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UILabel *label;
+@interface BIDCheckMarkRecognizer : UIGestureRecognizer
 
 @end
