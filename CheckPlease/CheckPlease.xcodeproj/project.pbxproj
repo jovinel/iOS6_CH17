@@ -23,8 +23,8 @@
 		472B9A041856C66C001935B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472B99DF1856C66C001935B2 /* Foundation.framework */; };
 		472B9A0C1856C66C001935B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 472B9A0A1856C66C001935B2 /* InfoPlist.strings */; };
 		472B9A0F1856C66C001935B2 /* CheckPleaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 472B9A0E1856C66C001935B2 /* CheckPleaseTests.m */; };
-		472B9A1A1856C746001935B2 /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 472B9A181856C746001935B2 /* CGPointUtils.c */; };
 		472B9A1D1856C7E3001935B2 /* BIDCheckMarkRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 472B9A1C1856C7E3001935B2 /* BIDCheckMarkRecognizer.m */; };
+		472B9A241856D948001935B2 /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 472B9A221856D948001935B2 /* CGPointUtils.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +60,10 @@
 		472B9A0B1856C66C001935B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		472B9A0D1856C66C001935B2 /* CheckPleaseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckPleaseTests.h; sourceTree = "<group>"; };
 		472B9A0E1856C66C001935B2 /* CheckPleaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckPleaseTests.m; sourceTree = "<group>"; };
-		472B9A181856C746001935B2 /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
-		472B9A191856C746001935B2 /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
 		472B9A1B1856C7E3001935B2 /* BIDCheckMarkRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckMarkRecognizer.h; sourceTree = "<group>"; };
 		472B9A1C1856C7E3001935B2 /* BIDCheckMarkRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckMarkRecognizer.m; sourceTree = "<group>"; };
+		472B9A221856D948001935B2 /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
+		472B9A231856D948001935B2 /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +123,8 @@
 		472B99E31856C66C001935B2 /* CheckPlease */ = {
 			isa = PBXGroup;
 			children = (
-				472B9A181856C746001935B2 /* CGPointUtils.c */,
-				472B9A191856C746001935B2 /* CGPointUtils.h */,
+				472B9A221856D948001935B2 /* CGPointUtils.c */,
+				472B9A231856D948001935B2 /* CGPointUtils.h */,
 				472B99EC1856C66C001935B2 /* BIDAppDelegate.h */,
 				472B99ED1856C66C001935B2 /* BIDAppDelegate.m */,
 				472B99F51856C66C001935B2 /* BIDViewController.h */,
@@ -285,6 +285,7 @@
 				472B99EE1856C66C001935B2 /* BIDAppDelegate.m in Sources */,
 				472B99F71856C66C001935B2 /* BIDViewController.m in Sources */,
 				472B9A1D1856C7E3001935B2 /* BIDCheckMarkRecognizer.m in Sources */,
+				472B9A241856D948001935B2 /* CGPointUtils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				472B9A0F1856C66C001935B2 /* CheckPleaseTests.m in Sources */,
-				472B9A1A1856C746001935B2 /* CGPointUtils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
